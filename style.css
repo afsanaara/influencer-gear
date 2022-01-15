@@ -412,3 +412,52 @@ footer h1{
     
 }
 }
+
+/* tablet device */
+@media only screen and (min-width:688px) and (max-width:992px){
+    .top-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .top-section img{
+        margin-top: 120px;
+        width:400px;
+    }
+/* popular part  */
+.collections{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width:100px;
+    margin-left: -75px;
+}
+.title{
+    width:400px;
+    margin-left: 120px;
+    margin-top: -15px;
+}
+.more{
+    width:400px;
+    margin-left: 510px;
+}
+/* bonus part  */
+
+    .bonus{
+        margin-top: 800px;
+        margin-left: -235px;
+    }
+    
+    /* footer part  */
+
+    .bottom h1{
+        margin-left: -220px;
+    }
+     .copyright{
+         margin-left: -220px;
+     }   
+     .reserved{
+         margin-left: -225px;
+     }
+     .logo{
+         margin-left: 320px;
+     }
+    }
