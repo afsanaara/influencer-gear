@@ -309,7 +309,7 @@ footer h1{
     media query
 --------------- */
 
-/* mobile device */
+/* mobile device --- pixel 2*/
 
 @media only screen and (max-width:688px) {
     body{
@@ -422,7 +422,7 @@ footer h1{
 }
 
 /* --------
-tablet device
+tablet device-- iPad Air
 -------------- */
 @media only screen and (min-width:688px) and (max-width:992px){
     .top-section{
