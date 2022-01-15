@@ -234,7 +234,7 @@ header h3{
     margin-left: 485px;
 }
 
-.top-right button{
+.click{
     background-color: #E02C6DDE;
     width: 196px;
     height:44px;
@@ -244,11 +244,11 @@ header h3{
     font-weight: 700;
     font-size:16px;
     padding: 10px, 24px, 10px, 24px;
-    margin-left: -300px;
+    margin-left: -280px;
     
     
 }
-.top-right button a{
+.click a{
     text-decoration: none;
     color:white;
 }
@@ -266,7 +266,7 @@ footer{
 }
 
 .last-part{
-    margin: 0 auto;
+    margin: 0 45px;
     padding: 0px;
     justify-content:center;
 }
@@ -413,11 +413,17 @@ footer h1{
 }
 }
 
-/* tablet device */
+/* --------
+tablet device
+-------------- */
 @media only screen and (min-width:688px) and (max-width:992px){
     .top-section{
         display: flex;
         flex-direction: column;
+       
+    }
+    .top-section h1{
+        width: 550px;
     }
     .top-section img{
         margin-top: 120px;
@@ -428,7 +434,7 @@ footer h1{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     width:100px;
-    margin-left: -75px;
+    margin-left: -110px;
 }
 .title{
     width:400px;
@@ -437,16 +443,23 @@ footer h1{
 }
 .more{
     width:400px;
-    margin-left: 510px;
+    margin-left: 480px;
 }
 /* bonus part  */
 
     .bonus{
         margin-top: 800px;
-        margin-left: -235px;
+        margin-left: -280px;
+    }
+    .click{
+        margin-left:-300px;
     }
     
     /* footer part  */
+
+    .last-part{
+        margin-left:-40px;
+    }
 
     .bottom h1{
         margin-left: -220px;
