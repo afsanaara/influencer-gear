@@ -19,6 +19,7 @@ header h3{
     height: 52px;
     margin-left: 120px;
     margin-top:87px;
+    color:#3A3A3A;
 }
 .top-section{
     display: flex;
@@ -100,6 +101,7 @@ header h3{
     font-weight: 600;
     margin-top: 180px;
     margin: 0 auto;
+    color:#3A3A3A;
     
 }
 .collections{
